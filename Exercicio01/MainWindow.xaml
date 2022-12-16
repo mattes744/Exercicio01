@@ -8,9 +8,9 @@
         Title="Intervalo" Height="200" Width="300">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="45,15,0,0" Text="Início" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox Name="txt1" HorizontalAlignment="Left" Margin="10,48,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt1" HorizontalAlignment="Left" Margin="10,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txt1_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="205,15,0,0" Text="Fim" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox Name="txt2" HorizontalAlignment="Left" Margin="170,48,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt2" HorizontalAlignment="Left" Margin="170,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Números" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
         <ListBox Name="list" Margin="0,109,0,0"/>
 
